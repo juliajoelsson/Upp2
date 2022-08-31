@@ -1,5 +1,7 @@
 package se.miun.jujo2203.dt187g.jpaint;
-/**Denna klass definierar de specifika koordinarernas x och y-värden.
+
+/**
+ * Denna klass definierar de specifika koordinarernas x och y-värden.
  * Dessa värden kan både sättas och hämtas med hjälp av set- och get
  * metoder.
  */
@@ -30,12 +32,12 @@ public class Point {
         return x;
     }
 
-    public double getY(){
+    public double getY() {
         return y;
     }
 
     @Override
-    public String toString(){
+    public String toString() {
         return "(" + x + ", " + y + ")";
     }
 }
